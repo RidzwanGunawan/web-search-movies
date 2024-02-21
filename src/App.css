@@ -1,0 +1,77 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: black;
+  font-weight: bolder;
+  font-weight: 900;
+}
+
+.Movie-search {
+  height: 30px;
+  width: 500px;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding: 12px;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+  border: none;
+}
+
+.Movie-search:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.Movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Movie-wrapper {
+  width: 500px;
+  color: black;
+  font-size: x-large;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.Movie-wrapper:hover {
+  scale: 103%;
+}
+
+.Movie-title {
+  height: 80px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 27px;
+}
+
+.Movie-date {
+  margin-top: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.Movie-rate {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: red;
+}
