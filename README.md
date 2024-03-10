@@ -15,7 +15,7 @@ To run the Web Search Movies application locally on your machine, follow these s
 
 # Clone this repository:
 
-- git clone https://github.com/your-username/web-search-movies.git
+- git clone https://github.com/RidzwanGunawan/web-search-movies.git
 
 # Navigate into the project directory:
 
